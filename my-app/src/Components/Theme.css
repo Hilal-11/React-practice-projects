@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: end;
+   
+}
+
+.theme_box {
+    height: 30px;
+    overflow: hidden;
+    padding: 10px;
+   display: flex;
+   flex-direction: column;
+   background-color: none;
+   gap: 10px;
+   box-shadow: 1px 1px 5px #302f2f, 
+                -1px -1px 5px #fff;
+    border-radius: 8px;
+    position: fixed;
+    z-index: 99;
+}
+.theme_box:hover{
+    height: auto;
+    overflow: visible;
+    transition: 0.5ms ease-in-out;
+}
+.theme_box button {
+    background-color: inherit;
+    padding: 8px 25px;
+    border: none;
+    box-shadow: inset 1px 1px 2px #696868, 
+    inset -1px -1px 2px #5a5959;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
